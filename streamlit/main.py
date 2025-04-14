@@ -79,7 +79,7 @@ def main():
     
     left_co, cent_co, last_co = st.columns(3)
     with cent_co:
-        st.image("./static/krishna2.png", width=230, caption="Shree Krishna")
+        st.image("./static/krishna2.png", width=220, caption="Shree Krishna")
 
     st.markdown("<h1 style='text-align: center;'>KãnhãSays</h1>", unsafe_allow_html=True)
     st.markdown("<h5 style='text-align: center;'>The Divine Wisdom Of Shree Krishna - Your Key To Happiness🦚</h5>", unsafe_allow_html=True)
