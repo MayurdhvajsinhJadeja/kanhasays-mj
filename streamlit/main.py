@@ -16,8 +16,8 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 model = load_model("streamlit/model.h5")
 intents = json.loads(open("gita_intents.json", encoding="utf-8").read())
-words = pickle.load(open("texts.pkl", "rb"))
-classes = pickle.load(open("labels.pkl", "rb"))
+words = pickle.load(open("streamlit/texts.pkl", "rb"))
+classes = pickle.load(open("streamlit/labels.pkl", "rb"))
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
